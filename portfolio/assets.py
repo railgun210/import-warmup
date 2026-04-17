@@ -1,4 +1,4 @@
-from portfolio.metrics import calculate_asset_value
+from portfolio.core.metrics import calculate_asset_value
 
 def calculate_portfolio_value(portfolio: dict) -> float:
     total = 0
